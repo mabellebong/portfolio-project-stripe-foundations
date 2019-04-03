@@ -1,5 +1,38 @@
 body {
-    background: ##032b51;
+    background: #032b51;
     color: #ffffff;
-    font-style: bold;
+}
+
+a {
+    color: white;
+}
+
+#port-nav ul {
+    padding: 20px 0;
+}
+
+#port-nav ul {
+    list-style: none;
+}
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    front-size: 16px;
+    border-radius: 10px;
+    background: purple;
+    text-decoration: none;
+    transition: all .2 linear;
+
+}
+
+#port-nav>ul>li>a:hover {
+    font-style: italic;
+    color: pink;
+    border-radius: opx;
+    transition: all .2 linear;
+
 }
